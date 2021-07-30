@@ -19,7 +19,7 @@ namespace WebApplication.Controllers
             {
                 Id = new Random().Next(),
                 CPF = "000.000.000-00",
-                Email = "rafaelcruz.net81@gmail.com",
+                Email = "diego.acioly@hotmail.com",
                 DataNascimento = new DateTime(1981, 03, 13),
                 Endereco = "Rua Teste de API",
                 NomeCompleto = "Diego",
@@ -37,7 +37,7 @@ namespace WebApplication.Controllers
             {
                 Id = 0,
                 CPF = "000.000.000-00",
-                Email = "rafaelcruz.net81@gmail.com",
+                Email = "diego.acioly@hotmail.com",
                 DataNascimento = new DateTime(1981, 03, 13),
                 Endereco = "Rua Teste de API",
                 NomeCompleto = "Diego"
@@ -46,7 +46,7 @@ namespace WebApplication.Controllers
             {
                 Id = 1,
                 CPF = "111.111.111-11",
-                Email = "rafaelcruz.net81@gmail.com",
+                Email = "diego.acioly@hotmail.com",
                 DataNascimento = new DateTime(1981, 03, 13),
                 Endereco = "Rua Teste de API",
                 NomeCompleto = "Diego 2"
@@ -55,7 +55,7 @@ namespace WebApplication.Controllers
             {
                 Id = 2,
                 CPF = "222.222.222-22",
-                Email = "rafaelcruz.net81@gmail.com",
+                Email = "diego.acioly@hotmail.com",
                 DataNascimento = new DateTime(1981, 03, 13),
                 Endereco = "Rua Teste de API",
                 NomeCompleto = "Diego 3"

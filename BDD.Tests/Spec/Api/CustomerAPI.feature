@@ -11,9 +11,9 @@ Cenario: Listar todos os clientes
 	Entao statuscode da resposta deverá ser 'OK'
 	E uma resposta com a uma lista do tipo 'WebApplication.Models.CustomerModel' deve ser retornada com os seguintes valores:
 	| NomeCompleto  | Endereco         | DataNascimento | CPF            | Email                      |
-	| Diego   | Rua Teste de API | 03/09/1981     | 000.000.000-00 | rafaelcruz.net81@gmail.com |
-	| Diego 2 | Rua Teste de API | 03/09/1981     | 111.111.111-11 | rafaelcruz.net81@gmail.com |
-	| Diego 3 | Rua Teste de API | 03/09/1981     | 222.222.222-22 | rafaelcruz.net81@gmail.com |
+	| Diego   | Rua Teste de API | 03/09/1981     | 000.000.000-00 | diego.acioly@hotmail.com |
+	| Diego 2 | Rua Teste de API | 03/09/1981     | 111.111.111-11 | diego.acioly@hotmail.com |
+	| Diego 3 | Rua Teste de API | 03/09/1981     | 222.222.222-22 | diego.acioly@hotmail.com |
 
 @criarCliente	
 Cenario: Consultar um Cliente pelo seu Identificador
@@ -24,14 +24,14 @@ Cenario: Consultar um Cliente pelo seu Identificador
 	Entao statuscode da resposta deverá ser 'OK'
 	E uma resposta do tipo 'WebApplication.Models.CustomerModel' deve ser retornada com os seguintes valores:
 	| Id        | NomeCompleto | Endereco         | DataNascimento | CPF            | Email                      | DataCadastro |
-	| <Inteiro> | Diego  | Rua Teste de API | 03/09/1981     | 000.000.000-00 | rafaelcruz.net81@gmail.com | <Hoje>       |
+	| <Inteiro> | Diego  | Rua Teste de API | 03/09/1981     | 000.000.000-00 | diego.acioly@hotmail.com | <Hoje>       |
 
 Cenario: Criar um Cliente
 	Dado que a url do endpoint é 'http://localhost:64861/api/customer'
 	E o método http é 'POST'
 	E informei o seguinte argumento do tipo 'WebApplication.Models.CustomerModel':
 	| NomeCompleto | Endereco         | DataNascimento | CPF            | Email                      |
-	| Diego  | Rua Teste de API | 03/09/1981     | 000.000.000-00 | rafaelcruz.net81@gmail.com |
+	| Diego  | Rua Teste de API | 03/09/1981     | 000.000.000-00 | diego.acioly@hotmail.com |
 	E a informei a propriedade 'Usuario' do tipo 'WebApplication.Models.CustomerModel com o valores':
 	| Nome   | Email               | Password |
 	| Teste  | teste@teste.com.br  | 123456A# |
@@ -39,4 +39,4 @@ Cenario: Criar um Cliente
 	Entao statuscode da resposta deverá ser 'Created'
 	E uma resposta do tipo 'WebApplication.Models.CustomerModel' deve ser retornada com os seguintes valores:
 	| NomeCompleto | Endereco         | DataNascimento | CPF            | Email                      | Id        |
-	| Diego  | Rua Teste de API | 03/09/1981     | 000.000.000-00 | rafaelcruz.net81@gmail.com | <Inteiro> |
+	| Diego  | Rua Teste de API | 03/09/1981     | 000.000.000-00 | diego.acioly@hotmail.com | <Inteiro> |

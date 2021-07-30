@@ -96,19 +96,19 @@ this.ScenarioSetup(scenarioInfo);
                         "Rua Teste de API",
                         "03/09/1981",
                         "000.000.000-00",
-                        "rafaelcruz.net81@gmail.com"});
+                        "diego.acioly@hotmail.com"});
             table1.AddRow(new string[] {
                         "Diego 2",
                         "Rua Teste de API",
                         "03/09/1981",
                         "111.111.111-11",
-                        "rafaelcruz.net81@gmail.com"});
+                        "diego.acioly@hotmail.com"});
             table1.AddRow(new string[] {
                         "Diego 3",
                         "Rua Teste de API",
                         "03/09/1981",
                         "222.222.222-22",
-                        "rafaelcruz.net81@gmail.com"});
+                        "diego.acioly@hotmail.com"});
 #line 12
  testRunner.And("uma resposta com a uma lista do tipo \'WebApplication.Models.CustomerModel\' deve s" +
                     "er retornada com os seguintes valores:", ((string)(null)), table1, "E ");
@@ -151,7 +151,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Rua Teste de API",
                         "03/09/1981",
                         "000.000.000-00",
-                        "rafaelcruz.net81@gmail.com",
+                        "diego.acioly@hotmail.com",
                         "<Hoje>"});
 #line 25
  testRunner.And("uma resposta do tipo \'WebApplication.Models.CustomerModel\' deve ser retornada com" +
@@ -184,7 +184,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Rua Teste de API",
                         "03/09/1981",
                         "000.000.000-00",
-                        "rafaelcruz.net81@gmail.com"});
+                        "diego.acioly@hotmail.com"});
 #line 32
  testRunner.And("informei o seguinte argumento do tipo \'WebApplication.Models.CustomerModel\':", ((string)(null)), table3, "E ");
 #line hidden
@@ -216,7 +216,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Rua Teste de API",
                         "03/09/1981",
                         "000.000.000-00",
-                        "rafaelcruz.net81@gmail.com",
+                        "diego.acioly@hotmail.com",
                         "<Inteiro>"});
 #line 40
  testRunner.And("uma resposta do tipo \'WebApplication.Models.CustomerModel\' deve ser retornada com" +
